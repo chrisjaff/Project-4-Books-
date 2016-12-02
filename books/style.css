@@ -1,4 +1,25 @@
-#myForm {
-    padding-top:25px;
-    margin-left:25px;
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 75px;
+    
+}
+
+.content {
+    flex: auto;
+    background-color: #ccc;
+}
+
+footer {
+    height: 25px;
 }
